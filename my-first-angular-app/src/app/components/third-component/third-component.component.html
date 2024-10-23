@@ -1,0 +1,14 @@
+
+<section>
+  <p> <strong> Operating system </strong>  </p>
+  @for(os of opreratingSystems; track os.id){
+    {{ os.name }}
+  }
+</section>
+
+<section>
+  <p> <strong> Users of the systems </strong>  </p>
+  @for(user of users; track user.id){
+    <p> {{ user.name}} </p>
+  }
+</section>
